@@ -1,0 +1,86 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 50px 400px 100px 100px 100px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.div1 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1 / span 1;
+    color: white;
+    background: black;
+}
+
+.div2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-column: 2 / span 4;
+    color: white;
+    background: red;
+}
+
+.div3 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1 / span 5;
+    color: white;
+    background: blue;
+}
+
+.div4 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1 / span 3;
+    grid-row: 3 / span 2;
+    color: white;
+    background: darkblue;
+}
+
+.div5 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-column: 4 / span 1;
+    grid-row: 3 / span 2;
+    color: black;
+    background: white;
+}
+
+.div6 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-column: 5 / span 1;
+    grid-row: 3 / span 1;
+    color: black;
+    background: lightblue;
+}
+
+.div7 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-column: 5 / span 1;
+    grid-row: 4 / span 1;
+    color: black;
+    background: lightgreen;
+}
+
+.div8 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1 / span 5;
+    grid-row: 5 / span 1;
+    color: black;
+    background: darkgoldenrod;
+}
